@@ -1,0 +1,28 @@
+solution4
+
+mysql> source task4.sql;
+--------------
+SELECT CURDATE() "Today is:"
+FROM DUAL
+--------------
+
++------------+
+| Today is:  |
++------------+
+| 2019-03-21 |
++------------+
+1 row in set (0.00 sec)
+
+--------------
+SELECT "Tasfique Enam" AS "My Name is:"
+FROM DUAL
+--------------
+
++---------------+
+| My Name is:   |
++---------------+
+| Tasfique Enam |
++---------------+
+1 row in set (0.00 sec)
+
+mysql> notee;

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>70</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>REGION
+--
+reg-code ID1
+reg-descp
+bg=#dddddd
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>70</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Store
+--
+st-name
+st-manager
+bg=#dddddd
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>140</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>emp-code
+job-code
+bg=#dddddd</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>170</y>
+      <w>100</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=
+m2=0..1
+Employs v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>310</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>EMPLOYEE
+--
+emp-title
+emp-name
+bg=#dddddd
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>90</y>
+      <w>300</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=[st-code]-
+m1=
+r1=
+m2=0..1
+Has &gt;</panel_attributes>
+    <additional_attributes>30.0;20.0;280.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>330</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=
+&lt; Assigns to</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>330</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>emp-code
+st-code
+bg=#dddddd</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>310</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> JOB
+--
+job-descrp
+job-time
+bg=#dddddd
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
